@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/jcesarmobile/FilePicker-Phonegap-iOS-Plugin/issues"
   },
-  "homepage": "https://github.com/jcesarmobile/FilePicker-Phonegap-iOS-Plugin#readme"
+  "homepage": "https://github.com/jcesarmobile/FilePicker-Phonegap-iOS-Plugin#readme",
+  "dependencies": {
+    "xcode": "^1.0.0"
+  }
 }

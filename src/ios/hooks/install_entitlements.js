@@ -5,7 +5,7 @@ var fs = require('fs'),
     path = require('path');
 
 module.exports = function (context) {
-  var xcode = context.requireCordovaModule('xcode');
+  var xcode = require('xcode');
   var Q = context.requireCordovaModule('q');
   var deferral = new Q.defer();
 
