@@ -6,7 +6,7 @@ var fs = require('fs'),
 
 module.exports = function (context) {
   var xcode = require('xcode');
-  var Q = context.requireCordovaModule('q');
+  var Q = require('q');
   var deferral = new Q.defer();
 
   if (context.opts.cordova.platforms.indexOf('ios') < 0) {

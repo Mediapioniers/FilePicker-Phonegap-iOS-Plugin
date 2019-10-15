@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/jcesarmobile/FilePicker-Phonegap-iOS-Plugin#readme",
   "dependencies": {
-    "xcode": "^1.0.0"
+    "xcode": "^1.0.0",
+    "q": "^1.5.1"
   }
 }
